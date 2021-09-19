@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 hr {
@@ -70,7 +71,7 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: left;
 }
 
 .navigation .link-active {
@@ -83,7 +84,8 @@ h1 {
     color: blue;
 }
 
-.her0 {
+.hero {
+    margin-top: 1rem;
     padding: 2rem;
 }
 
@@ -105,8 +107,13 @@ h1 {
 
 }
 
+section {
+    justify-content: center;
+}
+
 .section-ow {
-    background-color: rgb(151, 146, 146)
+    background-color: rgb(236, 232, 232);
+    padding-bottom: 1rem;
 }
 
 .footer {
@@ -116,6 +123,12 @@ h1 {
     margin-bottom: 1rem;
     color: white;
     border-top-right-radius: 0.5rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: large;
 }
 
 .footer .link {
