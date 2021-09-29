@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -109,6 +108,14 @@ hr {
     font-weight: bolder;
 }
 
+.window-heading {
+    margin-bottom: 1rem; 
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
 h1 {
    color: black; 
 }
@@ -116,6 +123,7 @@ h1 {
 .hero {
     margin-top: 1rem;
     padding: 2rem;
+    text-align: right;
 }
 
 .hero .hero-img {
@@ -125,9 +133,16 @@ h1 {
 }
 
 .hero .hero-heading {
-    font-size: 2rem;
-    color: var(--dark-grey);
+    font-size: 3.5rem;
+    color: var(--primary-color);
     padding-top: 1rem;
+    padding-right: 3rem;
+}
+
+.hero p {
+    color: var(--dark-grey);
+    font-size: x-large;
+    margin-top: -1rem;
 }
 
 
@@ -153,6 +168,7 @@ h1 {
 .section p {
     line-height: 2rem;
     color: rgb(35, 35, 35);
+    padding-bottom: 1rem;
 }
 
 .section .link {
